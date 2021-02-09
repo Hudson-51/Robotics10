@@ -9,7 +9,7 @@ prizm.PrizmBegin();
 
 void loop() { 
 
-distance = prizm.readSonicSensorCM(1);
+distance = prizm.readSonicSensorCM(2);
  
 if (distance < 5) {
   DangerLight();
